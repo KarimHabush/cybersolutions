@@ -13,5 +13,13 @@ We can see clearly that the file type is Zip. Let's unzip it.
 The flag is in Flag.txt 
 
 
+## Hidden Message 
+A cyber Criminal is hiding information in the below file . capture the flag ? submit Flag in MD5 Format
+
+* Just use exiftool command and instantly get the flag 
+
+![Image](./assets/Capture3.JPG)
+
+
 
 
