@@ -48,6 +48,22 @@ We should be able to the image leaked now.
 * To get the flag we need to get the md5 of the image using the command : ```md5sum decrypted```
 
 
+## Message in a bottle
+That's so easy. Just Capture the Flag.
+
+* When we run the command ```binwalk message-in-bottle.png``` we get the following : 
+
+![Image](./assets/Capture8.JPG)
+
+So we are sure that there are more than just an image in this file. 
+We use Openstego to try and extract the files inside : 
+
+![Image](./assets/Capture9.JPG)
+
+* The output file is a text file named Flag.txt which ofc contains our flag. 
+
+
+
 
 
 
