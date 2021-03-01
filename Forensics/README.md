@@ -74,7 +74,7 @@ A hacker left us something that allows us to track him in this image, can you fi
 
 ![Image](./assets/Capture11.JPG)
 
-* We notice that after IEND we still have base32 encrypted data (we can tell by the "="), if we decode it we get the flag. 
+* We notice that after IEND we still have base32 encoded data (we can tell by the "="), if we decode it we get the flag. 
 
 
 
