@@ -63,6 +63,26 @@ We use Openstego to try and extract the files inside :
 * The output file is a text file named Flag.txt which ofc contains our flag. 
 
 
+## I love images
+A hacker left us something that allows us to track him in this image, can you find it?
+
+* We run the command ```pngcheck bogot.png``` to check if the image is corrupted.
+
+![Image](./assets/Capture10.JPG)
+
+* Then we run the command ```strings bogot.png``` to see if there is any strings whithin the image. 
+
+![Image](./assets/Capture11.JPG)
+
+* We notice that after IEND we still have base32 encrypted data (we can tell by the "="), if we decode it we get the flag. 
+
+
+
+
+
+
+
+
 
 
 
