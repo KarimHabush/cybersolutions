@@ -42,10 +42,10 @@ Then follow tcp stream and save it as raw.
 
 ![Image](./assets/Capture7.JPG)
 
-* We use the command : ***netcat localhost 7070 < crypted.file*** to listen in port 7070.
-* And we use : ***cryptcat -l -k P@ssawordaya -p 7070 > decrypted*** to get decrypted data. 
+* We use the command : ```netcat localhost 7070 < crypted.file``` to listen in port 7070.
+* And we use : ```cryptcat -l -k P@ssawordaya -p 7070 > decrypted``` to get decrypted data. 
 We should be able to the image leaked now. 
-* To get the flag we need to get the md5 of the image using the command : ***md5sum decrypted***.
+* To get the flag we need to get the md5 of the image using the command : ```md5sum decrypted```
 
 
 
