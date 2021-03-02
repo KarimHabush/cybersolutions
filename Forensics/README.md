@@ -104,7 +104,7 @@ My HDD was destroyed in an accident. However, I was able to recover my recycle b
 ## You have been hacked 
 we can hide secret messages, try to capture the flag. Submit answer in MD5.
 
-*Just use openstego and extract the hidden file named ```Flag.txt```
+* Just use openstego and extract the hidden file named ```Flag.txt```
 
 ## Keep it simple 
 The answer is simple
@@ -118,6 +118,15 @@ I really enjoyed working on this one, as it says it's very simple but also confu
 
 ![Image](./assets/Capture17.JPG)
 
+
+## Anonymous 
+Can you trace the anonymous guy? 
+
+* Download the file and run the command ```strings anonymous.pcap``` . 
+
+![Image](./assets/Capture18.JPG)
+
+* The flag is Base64 encoded, decode it and submit. 
 
 
 
