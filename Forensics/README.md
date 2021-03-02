@@ -129,7 +129,21 @@ Can you trace the anonymous guy?
 * The flag is Base64 encoded, decode it and submit. 
 
 
+## X-File
+someone hiding a secret in this file. can you help me to recover the flag from the secret. 
 
+* First look at the file we know that it's hex encoded so we need to decode it first. 
+
+![Image](./assets/Capture19.JPG)
+
+* We use the command ```cat dump.txt | xxd -r > rev``` to decode it. 
+* When we run the command ```file rev```, we figure out that it's a ZIP file and it's protected with a password. So we need to crack it. 
+* We run the command ```zip2john rev > rev.hash``` to get the hashed password out of the zip archive.
+* Then we crack it using ```john rev.hash```. 
+
+![Image](./assets/Capture20.JPG)
+
+* Now Let's unzip it and get the flag :) . 
 
 
 
