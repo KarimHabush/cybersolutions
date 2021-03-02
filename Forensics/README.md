@@ -89,7 +89,38 @@ All of us started from the bottom. Now it's your turn.
 ![Image](./assets/Capture13.JPG)
 
 
-## 
+## Search in Trash 
+My HDD was destroyed in an accident. However, I was able to recover my recycle bin file . Can you know the flag ?
+
+* First thing to do is run the command ```file search-trash``` to know which type of file is this. 
+
+![Image](./assets/Capture14.JPG)
+
+* We use the command ```rifuiti2 search-trash``` that's used to extract file deletion time, original path and size of deleted files. 
+
+![Image](./assets/Capture15.JPG)
+
+
+## You have been hacked 
+we can hide secret messages, try to capture the flag. Submit answer in MD5.
+
+*Just use openstego and extract the hidden file named ```Flag.txt```
+
+## Keep it simple 
+The answer is simple
+
+I really enjoyed working on this one, as it says it's very simple but also confusing. 
+
+![Image](./assets/Capture16.JPG)
+
+* The flag was hidden in the image shown on top of the password input area. 
+* Download the image and run the command ```exiftool the_eye.jpeg```
+
+![Image](./assets/Capture17.JPG)
+
+
+
+
 
 
 
