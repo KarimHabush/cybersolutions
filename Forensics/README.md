@@ -77,7 +77,19 @@ A hacker left us something that allows us to track him in this image, can you fi
 * We notice that after IEND we still have base32 encoded data (we can tell by the "="), if we decode it we get the flag. 
 
 
+## bflag 
+All of us started from the bottom. Now it's your turn.
 
+* Before we head to wireshark, let's run the command ```foremost bflag.pcap``` and see if we'll find some useful file. 
+
+![Image](./assets/Capture12.JPG)
+
+* After looking around all these files, we find this : 
+
+![Image](./assets/Capture13.JPG)
+
+
+## 
 
 
 
