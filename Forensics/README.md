@@ -145,7 +145,13 @@ someone hiding a secret in this file. can you help me to recover the flag from t
 
 * Now Let's unzip it and get the flag :) . 
 
+## Partition Lost 
+Our Company's CEO had a car accident. His HDD was damaged and he lost all his files and partitions. Can you help him to recover his important data.
 
+* All we need to do is to run ```strings patition_lost.img | grep FLAG``` and we get the flag :3
+* Another method is to use ```autospy``` and recover deleted files on the partition. A file named fl@4.rar should be found that contains the flag.
+
+## 
 
 
 
