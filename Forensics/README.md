@@ -150,8 +150,21 @@ Our Company's CEO had a car accident. His HDD was damaged and he lost all his fi
 
 * All we need to do is to run ```strings patition_lost.img | grep FLAG``` and we get the flag :3
 * Another method is to use ```autospy``` and recover deleted files on the partition. A file named fl@4.rar should be found that contains the flag.
+d
+## Images3c
+Securing an important image requires good encryption. so we added extra security layer for your photo and now is unbreakable! 
 
-## 
+* In this challenge we get a zipped jpg file. 
+* After trying the first basic commands to get enough information about it like ```file cyber.jpg``` and ```exiftool cyber.jpg```.
+* We try the command ```steghide info cyber.jpg```, we get the result : 
+
+![Image](./assets/Capture21.png)
+
+* So the next step is to crack the password, we use ```stegcracker cyber.png```. (Don't forget to provide the file to use for the bruteforce, I used rockyou.txt)
+
+![Image](./assets/Capture22.png)
+
+
 
 
 
