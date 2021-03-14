@@ -164,7 +164,20 @@ Securing an important image requires good encryption. so we added extra security
 
 ![Image](./assets/Capture22.png)
 
+## Sad mummy
+Every great tomb has a lot of decoys and we think this mummy has a lot inside it but first can you make the way clearer?
 
+* After we run the command ```strings SadMummy.zip``` we notice this : 
+
+![Image](./assets/Capture23.png)
+
+* So we know that we have to crack the zip file using a rockyou.txt 
+* After we get a jpg image, we run the command ```binwalk SadMummy.jpg```, we get this : 
+
+![Image](./assets/Capture24.png)
+
+* So let's just use foremost and extract all that. 
+* The flag is in one of the extracted 999 text files, now it's up to you to find it ;)
 
 
 
